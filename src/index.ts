@@ -7,9 +7,7 @@ const PORT = process.env.PORT || 4000;
 const CORS_ORIGIN =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3000"
-    : process.env.NODE_ENV === "production"
-    ? "https://see-covid19.netlify.app/"
-    : false;
+    : "https://see-covid19.netlify.app/";
 
 const app = express();
 
